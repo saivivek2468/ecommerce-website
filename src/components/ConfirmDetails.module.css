@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.both {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.confirmIcon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.thankText {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.13;
+  letter-spacing: 1.14px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.description {
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.67;
+  color: #000;
+  margin-bottom: 10px;
+}
+.rowFlexContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.rowFlexContainer img {
+  width: 40px;
+  height: 40px;
+}
+
+.columnFlexContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.columnFlexContainer .heading {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.67;
+  color: #000;
+}
+
+.columnFlexContainer .price {
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.79;
+  color: #000;
+}
+
+.cartCount {
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.67;
+  color: #000;
+}
+
+.remaining {
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -0.21px;
+  color: #000;
+}
+
+.totalPrice {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.totalPrice .grandTotal {
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.67;
+  color: #fff;
+}
+
+.totalPrice .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn {
+  outline: 0;
+  border: 0;
+  background-color: #d87d4a;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+}
