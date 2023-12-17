@@ -10,7 +10,6 @@ const ForgotPassword = () => {
         <h3 className={styles.heading}>Verification Code</h3>
         <p>we have sent an verification </p>
         <p>code to your email address</p>
-
         <OtpInput
           value={otp}
           onChange={(number) => setOtp(number)}

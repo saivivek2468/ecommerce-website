@@ -6,11 +6,9 @@ import { BrowserRouter } from "react-router-dom";
 import AppStateProvider from "./context/context.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <AppStateProvider>
-        <App />
-      </AppStateProvider>
-    </BrowserRouter>
-  </React.StrictMode>
+  <BrowserRouter>
+    <AppStateProvider>
+      <App />
+    </AppStateProvider>
+  </BrowserRouter>
 );

@@ -1,22 +1,22 @@
 .container {
   display: flex;
   justify-content: space-between;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .loginContainer {
   border-radius: 20px;
   box-shadow: 0 19px 40px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
-  margin:160px 0px 0px 120px;
-  padding:100px 120px 0px 120px;
+  margin: 160px 0px 0px 120px;
+  padding: 100px 120px 0px 120px;
 }
-.loginGreeting{
+.loginGreeting {
   font-size: 16px;
   line-height: 1.38;
   letter-spacing: 0.48px;
   color: rgba(0, 0, 0, 0.5);
 }
-.loginHeading{
+.loginHeading {
   font-size: 32px;
   font-weight: 600;
   color: #000;
@@ -24,28 +24,27 @@
   color: #f47458;
 }
 
-.formControl{
+.formControl {
   display: flex;
   flex-direction: column;
-  gap:8px;
+  gap: 8px;
   margin-bottom: 4px;
 }
 
-.label{
+.label {
   font-size: 14px;
   font-weight: 300;
   color: #000;
   font-family: "Manrope", sans-serif;
 }
 
-.formControl input{
-  outline:0;
-  border:0;
+.formControl input {
+  outline: 0;
+  border: 0;
   border-radius: 4px;
   background-color: #fff6f4;
-  padding:8px;
+  padding: 8px;
 }
-
 
 .link {
   opacity: 0.7;
@@ -56,45 +55,47 @@
   text-align: right;
 }
 
-.link a{
+.link a {
   text-decoration: none;
   color: #f47458;
 }
 
-.button{
-  border:0;
+.button {
+  border: 0;
   outline: 0;
   border-radius: 23px;
   background-color: #f47458;
-  color:#fff;
-  padding:6px 16px 6px 16px;
+  color: #fff;
+  padding: 6px 16px 6px 16px;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 30px;
-   margin:30px auto 20px;
-   width:100%;
-   cursor: pointer;
+  margin: 30px auto 20px;
+  width: 100%;
+  cursor: pointer;
 }
 
-.button a{
-  color:#fff;
+.button a {
+  color: #fff;
 }
 
-.noAccount{
+.noAccount {
   font-size: 14px;
   line-height: 1.38;
   letter-spacing: 0.48px;
-  color:#f47458;
+  color: #f47458;
   display: flex;
 }
-.noAccount span{
+.noAccount span {
   color: rgba(0, 0, 0, 0.6);
   margin-right: 8px;
 }
 
-
-.imageContainer img{
-  max-width: 100%;
-
+.imageContainer img {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
