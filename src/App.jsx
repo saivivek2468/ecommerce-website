@@ -15,11 +15,6 @@ import ForgotPassword from "./routes/ForgotPassword";
 import Catogeries from "./routes/Catogeries";
 import { ToastContainer } from "react-toastify";
 import PrivateRoute from "./routes/PrivateRoute";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
 function App() {
   return (
     <>
