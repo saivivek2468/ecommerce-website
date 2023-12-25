@@ -19,7 +19,7 @@ const CategoryList = () => {
               <img src={iconRight} />
             </div>
           </Link>
-        </div>
+        </div> 
       ))}
     </div>
   );

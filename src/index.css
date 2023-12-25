@@ -22,3 +22,13 @@ a {
   width: 100%;
   height: 300px;
 }
+
+.slick-next:hover,
+.slick-prev:focus,
+.slick-prev:hover {
+  color: #ff432a;
+}
+.slick-next:before,
+.slick-prev:before {
+  color: #ff432a;
+}

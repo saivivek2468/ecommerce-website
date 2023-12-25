@@ -11,7 +11,6 @@ import { availabeToken } from "../utils/availableToken";
 import { toastMessage } from "../utils/toastMesssage";
 
 export const HeaderPart = ({
-  isPadding,
   modalShown = false,
   toggleModal = () => {},
   pathname = "",
@@ -19,7 +18,7 @@ export const HeaderPart = ({
 }) => {
   const navigate = useNavigate();
   return (
-    <header style={{ padding: isPadding ? "20px 30px 20px 30px" : "" }}>
+    <header>
       <h1 className={styles.text}>audiophile</h1>
       <ul className={styles.menuList}>
         <li>
